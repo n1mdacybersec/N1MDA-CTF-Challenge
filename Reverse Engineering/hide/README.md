@@ -1,5 +1,8 @@
 # hide
 
+## Author
+Arasy Dafa Sulistya Kurniawan - omegathrone
+
 ## Deskripsi
 im good at hiding
 
@@ -10,7 +13,7 @@ why don't you just look inside?
 Diberikan suatu file binary [Binary](challenge/hide)
 
 ## Step
-Player harus melakukan decrypt terhadap message yang telah ada. Terdapat 2 algoritma yang digunakan yaitu Caesar Cipher dengan Shift/Key 7 dan XOR dengan key 7. Player harus decrypt XOR dengan key 7 terlebih dahulu, lalu melakukan decrypt Caesar Cipher dengan Shift/Key 7 untuk mendapatkan flagnya.
+Player harus mencari flag yang berada dalam file binary tersebut. Dapat digunakan command `strings` untuk melihat isi daripada file binary tersebut dan terdapat dua part flag yang mana jika digabungkan menghasilkan flag secara utuh.
 
 ## Resource
 Terdapat file [Hide](source/hide.c) untuk menyembunyikan flag ke dalam binary. Untuk generate binary menggunakan command 

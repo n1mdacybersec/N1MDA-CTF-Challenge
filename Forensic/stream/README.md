@@ -1,5 +1,8 @@
 # stream
 
+## Author
+Moch. Imam Rifai - underzero
+
 ## Deskripsi
 Recently researchers have found a beautiful stream in a remote village.
 
@@ -9,7 +12,8 @@ According to local residents, there is a legend that says only a chosen person c
 [stream.rar](./challenge/stream.rar)
 
 ## Tags
-Windows NTFS
+- Windows
+- NTFS
 
 ## Hints
 The legend also says that you can see the secrets of the stream through the window
