@@ -11,12 +11,15 @@ Diberikan suatu file binary [Binary](challenge/hide)
 
 ## Step
 Player harus mencari flag yang berada dalam file binary tersebut. Challenge kali ini menggunakan `Code Obsfucation` dengan cara melakukan `XOR` dengan hex `0x20` pada setiap karakter flag. Player harus menggunakan IDA untuk menganalisanya. Pada main function terlihat potongan-potongan dari flag yang ada sebagai berikut.
+
 ![Main Function](main_function.png)
 
 Karena masih belum ditemukan adanya petunjuk terkait flag, maka kita harus menyusuri fungsi-fungsi lainnya. Terdapat suatu fungsi yang bernama `obsfucateFlag` yang melakukan `XOR` terhadap flag asli. 
+
 ![Obsfucate Flag](obsfucate_flag.png)
 
 Ketika masuk ke dalam fungsi `obsfucateFlag`, dapat dilihat bahwa terdapat operasi `XOR` dengan hex `0x20`.
+
 ![XOR 20](xor_20.png)
 
 Lalu buat script python untuk melakukan XOR 20 dari hexa yang terdapat pada fungsi `main` untuk menemukan flagnya.
