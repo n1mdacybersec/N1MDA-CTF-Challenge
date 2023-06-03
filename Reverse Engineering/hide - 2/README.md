@@ -6,8 +6,11 @@ Arasy Dafa Sulistya Kurniawan - omegathrone
 ## Deskripsi
 i thought i was already good at hiding, but you can find me easily in the first challenge. but now im hiding even deeper, try to find me now.
 
+## Hint
+dont forget to check the case
+
 ## Message
-Diberikan suatu file binary [Binary](challenge/hide)
+Diberikan suatu file binary [Binary](challenge/hide).
 
 ## Step
 Player harus mencari flag yang berada dalam file binary tersebut. Challenge kali ini menggunakan `Code Obsfucation` dengan cara melakukan `XOR` dengan hex `0x20` pada setiap karakter flag. Player harus menggunakan IDA untuk menganalisanya. Pada main function terlihat potongan-potongan dari flag yang ada sebagai berikut.
@@ -36,7 +39,7 @@ print("Flag:", flag)
 ```
 
 ## Resource
-Terdapat file [Hide](source/hide.c) untuk menyembunyikan flag ke dalam binary. Untuk generate binary menggunakan command 
+Terdapat file [Hide](source/hide.c) untuk menyembunyikan flag ke dalam binary. Untuk generate binary menggunakan command berikut: 
 ```shell
 gcc hide.c -o challenge/hide
 ```
