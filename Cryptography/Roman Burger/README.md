@@ -4,7 +4,7 @@
 Arasy Dafa Sulistya Kurniawan - omegathrone
 
 ## Deskripsi
-7 roman people buy 7 exclusive original burger
+7 roman people buy 7 exclusive original burger and eat it brutally
 
 ## Hint
 don't forget your key
