@@ -2,14 +2,17 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "Stream"
+name: "Message"
 author: "underzero"
-category: Forensic
+category: OSINT
 description: |
-    Recently researchers have found a beautiful stream in a remote village.
-    According to local residents, there is a legend that says only a chosen person can discover the secrets of the stream. Can you help the researcher to find the secret?
+    Someone give me this message and I don't know who send this message.
+    Can you find someone who send this message?
 
-    Flag format: `n1mdaCTF{flag}`
+    Make sure your flag is correct to this SHA256 hash before submitting.
+    `227320743a91a81dc03916a586a71e30e85b01d8188f56c4794737a4a7830cb5`
+
+    **Note**: The flag is the name or the account name in lowercase letter, example `n1mdaCTF{accountname}`
 
     **Author**: `underzero`
 value: 50
@@ -19,8 +22,8 @@ type: standard
 # required but can be nice.
 # Can be removed if unused
 # Accepts dictionaries or strings
-hints:
-    - The legend also says that you can see the secrets of the stream through the window
+# hints:
+#    - The legend also says that you can see the secrets of the stream through the window
 
 
 # Flags specify answers that your challenge use. You should generally provide
@@ -28,20 +31,20 @@ hints:
 # Can be removed if unused
 # Accepts strings or dictionaries
 flags:
-    - n1mdaCTF{Be_careful_with_Alternate_$DATA_stream}
+    - n1mdaCTF{akaihaato}
 
 # Tags are used to classify your challenge with topics. You should provide at
 # least one.
 # Can be removed if unused
 # Accepts strings
-tags:
-    - Windows
-    - NTFS
+# tags:
+#    - Windows
+#    - NTFS
 
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
 files:
-    - dist/stream.rar
+    - dist/message.txt
 
 # The state of the challenge.
 # This is visible by default. It takes two values: hidden, visible.

@@ -16,7 +16,7 @@ r6sloMFJ|m~apf7X62XjErXo2Xmhesz
 Player harus melakukan decrypt terhadap message yang telah ada. Terdapat 2 algoritma yang digunakan yaitu Caesar Cipher dengan Shift/Key 7 dan XOR dengan key 7. Player harus decrypt XOR dengan key 7 terlebih dahulu, lalu melakukan decrypt Caesar Cipher dengan Shift/Key 7 untuk mendapatkan flagnya.
 
 ## Resource
-Terdapat file [Decrypt](source/decrypt.py) untuk fungsi decrypt flag dan [Encrypt](source/encrypt.py) untuk fungsi encrypt flag. Run file tersebut menggunakan command
+Terdapat file [Decrypt](../source/decrypt.py) untuk fungsi decrypt flag dan [Encrypt](../source/encrypt.py) untuk fungsi encrypt flag. Run file tersebut menggunakan command
 ``` shell
 # Run decrypt.py
 python decrypt.py # Untuk Windows

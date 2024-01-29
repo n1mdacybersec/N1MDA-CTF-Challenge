@@ -9,7 +9,7 @@ Recently researchers have found a beautiful stream in a remote village.
 According to local residents, there is a legend that says only a chosen person can discover the secrets of the stream. Can you help them to find the secret?
 
 ## Attachment
-[stream.rar](./challenge/stream.rar)
+[stream.rar](../dist/stream.rar)
 
 ## Tags
 - Windows

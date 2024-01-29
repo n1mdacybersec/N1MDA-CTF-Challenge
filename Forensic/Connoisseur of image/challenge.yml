@@ -2,25 +2,24 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "Stream"
+name: "Connoiseur of image"
 author: "underzero"
 category: Forensic
 description: |
-    Recently researchers have found a beautiful stream in a remote village.
-    According to local residents, there is a legend that says only a chosen person can discover the secrets of the stream. Can you help the researcher to find the secret?
+    Can you obtain the flag in this file?
 
     Flag format: `n1mdaCTF{flag}`
 
     **Author**: `underzero`
-value: 50
+value: 5
 type: standard
 
 # Hints are used to give players a way to buy or have suggestions. They are not
 # required but can be nice.
 # Can be removed if unused
 # Accepts dictionaries or strings
-hints:
-    - The legend also says that you can see the secrets of the stream through the window
+# hints:
+#    - The legend also says that you can see the secrets of the stream through the window
 
 
 # Flags specify answers that your challenge use. You should generally provide
@@ -28,20 +27,20 @@ hints:
 # Can be removed if unused
 # Accepts strings or dictionaries
 flags:
-    - n1mdaCTF{Be_careful_with_Alternate_$DATA_stream}
+    - n1mdaCTF{never_thought_this_was_an_animated_png_c7da4fc9}
 
 # Tags are used to classify your challenge with topics. You should provide at
 # least one.
 # Can be removed if unused
 # Accepts strings
 tags:
-    - Windows
-    - NTFS
+    - File format
+    - Exercises
 
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
 files:
-    - dist/stream.rar
+    - dist/chall.png
 
 # The state of the challenge.
 # This is visible by default. It takes two values: hidden, visible.

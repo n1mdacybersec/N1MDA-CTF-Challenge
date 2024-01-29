@@ -2,17 +2,16 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "Stream"
-author: "underzero"
-category: Forensic
+name: "hide? - 2"
+author: "omegathrone"
+category: Reverse Engineering
 description: |
-    Recently researchers have found a beautiful stream in a remote village.
-    According to local residents, there is a legend that says only a chosen person can discover the secrets of the stream. Can you help the researcher to find the secret?
+    i thought i was already good at hiding, but you can find me easily in the first challenge. but now im hiding even deeper, try to find me now
 
     Flag format: `n1mdaCTF{flag}`
 
-    **Author**: `underzero`
-value: 50
+    **Author**: `omegathrone`
+value: 100
 type: standard
 
 # Hints are used to give players a way to buy or have suggestions. They are not
@@ -20,7 +19,8 @@ type: standard
 # Can be removed if unused
 # Accepts dictionaries or strings
 hints:
-    - The legend also says that you can see the secrets of the stream through the window
+    - dont forget to check the case
+    - i heard ida is a great tool
 
 
 # Flags specify answers that your challenge use. You should generally provide
@@ -28,20 +28,20 @@ hints:
 # Can be removed if unused
 # Accepts strings or dictionaries
 flags:
-    - n1mdaCTF{Be_careful_with_Alternate_$DATA_stream}
+    - n1mdaCTF{0bfu5c4710n_iS_my_F4v0u12!t3}
 
 # Tags are used to classify your challenge with topics. You should provide at
 # least one.
 # Can be removed if unused
 # Accepts strings
-tags:
-    - Windows
-    - NTFS
+# tags:
+#    - Windows
+#    - NTFS
 
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
 files:
-    - dist/stream.rar
+    - dist/hide
 
 # The state of the challenge.
 # This is visible by default. It takes two values: hidden, visible.
