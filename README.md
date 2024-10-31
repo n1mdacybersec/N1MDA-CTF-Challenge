@@ -1,4 +1,4 @@
-# N1MDA CTF Challenge Archives
+# N1MDA CTF Challenges Archive
 
 Repository untuk arsip dari N1MDA CTF. 
 Setiap challenge terdapat flag yang dapat dilihat pada `challenge.yml` jika ingin untuk melakukan pengecekan kebenaran flag.
